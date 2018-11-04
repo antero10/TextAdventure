@@ -1,0 +1,66 @@
+<GameSettings>
+    <Floors>
+        <Floor>
+            <id>1</id>
+            <Name>Floor 1</Name>
+            <Description>Base Floor</Description>
+            <Rooms>
+                <Room>
+                    <id>1</id>
+                    <Name>Room 1</Name>
+                    <Description>Entrance room, a gray revolver is on the corner</Description>
+                    <Doors>
+                        <Door>
+                            <id>1</id>
+                            <Direction>north</Direction>
+                            <From>1</From>
+                            <To>2</To>
+                        </Door>
+                    </Doors>
+                    <Items>
+                        <Item Type="Gun">
+                            <id>1</id>
+                            <Name>Revolver</Name>
+                            <Ammo>40</Ammo>
+                            <Damage>100</Damage>
+                            <Description>Gray Revolver</Description>
+                        </Item>
+                    </Items>
+                </Room>
+                <Room>
+                    <id>2</id>
+                    <Name>Room 2</Name>
+                    <Description>Entrance Room</Description>
+                    <Doors>
+                        <Door>
+                            <id>2</id>
+                            <Direction>south</Direction>
+                            <From>2</From>
+                            <To>1</To>
+                        </Door>
+                    </Doors>
+                    <Enemies>
+                        <Enemy Type="Zombie">
+                            <id>1</id>
+                            <Name>Zombie</Name>
+                            <Description>Zombie Bob</Description>
+                            <Damage>10</Damage>
+                        </Enemy>
+                    </Enemies>
+                </Room>
+            </Rooms>
+        </Floor>
+        <Floor>
+            <id>2</id>
+            <Name>Floor 2</Name>
+            <Description>2nd Floor</Description>
+            <Rooms>
+                <Room>
+                    <id>3</id>
+                    <Name>Room 3 (Upper Floor)</Name>
+                    <Description>Some room</Description>
+                </Room>
+            </Rooms>
+        </Floor>
+    </Floors>
+</GameSettings>
